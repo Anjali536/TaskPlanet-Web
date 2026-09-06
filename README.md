@@ -124,32 +124,32 @@ social-feed/
 └── README.md
 ```
 ## Getting Started
-## Clone the Repository
+## Clone the Repository: 
 git clone https://github.com/Anjali536/TaskPlanet-Web.git
 cd TaskPlanet-Web
 
 ## Frontend Setup
-1. Navigate to Frontend
+1. Navigate to Frontend: 
 cd frontend
 
-3. Install Dependencies
+3. Install Dependencies: 
 npm install
 
-3. Configure Environment Variables
+3. Configure Environment Variables: 
 VITE_API_URL=http://localhost:5000/api
 
-4. Start Frontend
+4. Start Frontend: 
 npm run dev
 
 ## Backend Setup
 
-1. Navigate to Backend
+1. Navigate to Backend: 
 cd backend
 
-2.Install Dependencies
+2.Install Dependencies: 
 npm install
 
-3.Configure Environment Variables
+3.Configure Environment Variables: 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -157,7 +157,7 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
-4.Start Backend
+4.Start Backend: 
 npm run dev
 
 ## Author
